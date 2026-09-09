@@ -31,7 +31,7 @@ import (
 
 func main() {
     p := parser.New(parser.WithExtensions(slugger.Parser), parser.WithAutoHeadingID())
-    r := html.New(html.WithExtensions(emoji.HTMLRenderer))
+    r := html.New()
 }
 ```
 
