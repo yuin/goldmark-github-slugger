@@ -1,4 +1,4 @@
-module slugger
+module github.com/yuin/goldmark-github-slugger
 
 go 1.25.0
 
