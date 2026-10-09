@@ -2,9 +2,9 @@ package slugger_test
 
 import (
 	"bytes"
-	"slugger"
 	"testing"
 
+	slugger "github.com/yuin/goldmark-github-slugger"
 	"github.com/yuin/goldmark/v2/parser"
 	"github.com/yuin/goldmark/v2/renderer/html"
 	"github.com/yuin/goldmark/v2/util"
